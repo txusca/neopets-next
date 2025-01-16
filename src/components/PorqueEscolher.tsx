@@ -19,12 +19,9 @@ export default function PorqueEscolher(props: PorqueEscolherProps) {
             <h3 className="text-2xl font-bold text-mainColor md:text-left text-center">
               Atendimento personalizado
             </h3>
-            <div className="text-center md:text-left font-light text-mainColor">
-              O PetShop oferece cuidado personalizado, orientação especializada
-              e atenção meticulosa aos detalhes, promovendo laços fortes entre
-              pets e seus cuidadores, assegurando que cada animal receba a
-              atenção e os cuidados adequados.
-            </div>
+            <p className="text-justify font-light text-mainColor">
+              O PetShop oferece cuidado personalizado, orientação especializada e atenção meticulosa aos detalhes, promovendo laços fortes entre pets e seus cuidadores, assegurando que cada animal receba a atenção e os cuidados adequados.
+            </p>
           </div>
         </div>
         <div className="flex md:flex-row flex-col md:mt-[94px] items-center mt-[15px]">
@@ -33,12 +30,9 @@ export default function PorqueEscolher(props: PorqueEscolherProps) {
             <h3 className="text-2xl font-bold text-mainColor md:text-left text-center">
               Ambiente confortável e seguro
             </h3>
-            <div className="text-center md:text-left font-light text-mainColor">
-              O PetShop proporciona um ambiente seguro e confortável para os
-              animais de estimação, com espaços limpos, bem iluminados e
-              ventilados, além de áreas dedicadas para socialização e
-              exercícios.
-            </div>
+            <p className="text-justify font-light text-mainColor">
+              O PetShop proporciona um ambiente seguro e confortável para os animais de estimação, com espaços limpos, bem iluminados e ventilados, além de áreas dedicadas para socialização e exercícios.
+            </p>
           </div>
         </div>
         <div className="flex md:flex-row flex-col items-center mt-[15px]">
@@ -47,12 +41,9 @@ export default function PorqueEscolher(props: PorqueEscolherProps) {
             <h3 className="text-2xl font-bold text-mainColor md:text-left text-center">
               Amor pelos pets
             </h3>
-            <div className="text-center md:text-left font-light text-mainColor">
-              Aqui o cuidado e respeito pelos animais são visíveis em cada
-              interação e serviço. Os funcionários demonstram amor pelos pets,
-              oferecendo um ambiente acolhedor, produtos de qualidade e atenção
-              individualizada, garantindo que cada animal se sinta amado.
-            </div>
+            <p className="text-justify font-light text-mainColor">
+              Aqui o cuidado e respeito pelos animais são visíveis em cada interação e serviço. Os funcionários demonstram amor pelos pets, oferecendo um ambiente acolhedor, produtos de qualidade e atenção individualizada, garantindo que cada animal se sinta amado.
+            </p>
           </div>
         </div>
         <div className="flex md:flex-row flex-col md:mt-[94px] items-center mt-[15px]">
@@ -61,11 +52,9 @@ export default function PorqueEscolher(props: PorqueEscolherProps) {
             <h3 className="text-2xl font-bold text-mainColor md:text-left text-center">
               Transparência
             </h3>
-            <div className="text-center md:text-left font-light text-mainColor">
-              Desde a divulgação transparente dos produtos e serviços até a
-              comunicação aberta sobre políticas de preços e procedimentos, o
-              PetShop estabelece confiança através da honestidade e integridade
-            </div>
+            <p className="text-justify font-light text-mainColor">
+              Desde a divulgação transparente dos produtos e serviços até a comunicação aberta sobre políticas de preços e procedimentos, o PetShop estabelece confiança através da honestidade e integridade
+            </p>
           </div>
         </div>
       </div>
