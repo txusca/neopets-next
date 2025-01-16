@@ -16,7 +16,7 @@ export default function QuemSomos(props: QuemSomosProps) {
         <h1 className="text-4xl md:text-7xl text-center whitespace-nowrap text-mainColor font-extrabold pb-10">
           QUEM SOMOS
         </h1>
-        <p className="text-lg text-mainColor text-center">
+        <p className="text-lg text-mainColor text-justify">
           Aqui na NeoPets somos apaixonados por cuidar dos seus animais de
           estimação, oferecendo alimentos premium, brinquedos e serviços de
           grooming de alta qualidade. Junte-se a nós para uma jornada de
