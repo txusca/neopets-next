@@ -33,7 +33,7 @@ export default function AgendeAtendimento(props: AgendeAtendimentoProps) {
             pronta para cuidar com carinho e dedicação.
           </p>
           <Link className='mt-3' href={'https://wa.me/+5538997413703'} target='_blank'>
-            <div className="flex w-72 h-20 bg-green-400 rounded-2xl text-white justify-center items-center text-3xl font-normal cursor-pointer">
+            <div className="flex w-[272px] h-24 bg-green-400 rounded-2xl text-white justify-center items-center text-3xl font-normal cursor-pointer">
               Fale conosco
               <Image className="ml-3" src={wpp} alt="Whatsapp icon" />
             </div>
