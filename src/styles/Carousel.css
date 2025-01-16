@@ -1,0 +1,21 @@
+.swiper-wrapper {
+  padding: 50px 0 100px 0;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ffde59 !important;
+}
+
+.swiper-slide-active img {
+  transform: scale(1.2) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.swiper-slide img {
+  transform: scale(1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
