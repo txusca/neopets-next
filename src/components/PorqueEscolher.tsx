@@ -12,7 +12,7 @@ export default function PorqueEscolher(props: PorqueEscolherProps) {
       <h2 className="md:text-5xl text-2xl text-center text-nowrap text-mainColor font-bold my-5 md:my-9 ">
         Por que escolher a NeoPet’s?
       </h2>
-      <div className="md:grid md:grid-cols-2 md:gap-[30px] gap-5 mt-[15px] md:ml-14">
+      <div className="md:grid md:grid-cols-2 md:gap-[30px] gap-5 mt-[15px] md:ml-14 px-4">
         <div className="flex md:flex-row flex-col items-center">
           <Image className="mr-5" src={patinhas} alt="Patinhas duplas" />
           <div>
