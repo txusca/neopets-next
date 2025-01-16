@@ -3,8 +3,6 @@ import Script from 'next/script';
 import { Roboto_Flex } from 'next/font/google';
 import './globals.css';
 
-import icon from '/public/logo.svg';
-
 const robotoFlex = Roboto_Flex({
   variable: '--font-roboto-flex',
   subsets: ['latin'],
