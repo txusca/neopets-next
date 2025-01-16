@@ -18,7 +18,7 @@ export default function NossosServicos(props: NossosServicosProps) {
       <h2 className="text-center whitespace-nowrap font-extrabold text-3xl text-mainColor m-20">
         NOSSOS SERVIÇOS
       </h2>
-      <div className="flex flex-col md:flex-row flex-wrap justify-center p-0 m-0">
+      <div className="flex flex-col md:flex-row flex-wrap justify-center md:p-0 md:m-0 md:gap-0 gap-6 pb-6">
         <div className="mx-5 flex justify-center items-center flex-col p-0 m-0">
           <div className="w-40 h-40 rounded-full bg-mainColor flex justify-center items-center p-0 m-0">
             <Image src={internacoes} alt="Internações icon" />
