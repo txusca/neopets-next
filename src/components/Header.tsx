@@ -14,7 +14,7 @@ export default function Header(props: HeaderProps) {
       <Link href={'/'}>
         <Image className="md:w-40 h-auto w-28" src={logo} alt="Neopets logo" />
       </Link>
-      <div className="flex flex-row gap-5">
+      <div className="flex items-center gap-5">
         <Link href={'https://wa.me/+5538997413703'} target='_blank'>
           <div className="flex items-center flex-row gap-5">
             <Image className="w-7 h-auto" src={wpp} alt="whatsapp icon" />
