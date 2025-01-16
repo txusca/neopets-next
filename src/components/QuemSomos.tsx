@@ -12,8 +12,8 @@ export default function QuemSomos(props: QuemSomosProps) {
     <div className={`${props.className} relative`}>
       <Image className='md:inline hidden w-[90%] h-auto' src={bannerWeb} alt='Banner gatinho'/>
       <Image className='inline md:hidden' src={bannerMobile} alt='Banner gatinho'/>
-      <div className="w-full md:w-1/2 p-4 xl:-ml-80 md:-ml-56">
-        <h1 className="text-4xl md:text-7xl text-center text-mainColor font-extrabold pb-10">
+      <div className="w-full md:w-1/2 p-4 xl:-ml-[416px] md:-ml-56">
+        <h1 className="text-4xl md:text-7xl text-center whitespace-nowrap text-mainColor font-extrabold pb-10">
           QUEM SOMOS
         </h1>
         <p className="text-lg text-mainColor text-center">
