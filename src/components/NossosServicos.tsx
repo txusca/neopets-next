@@ -15,7 +15,7 @@ type NossosServicosProps = {
 export default function NossosServicos(props: NossosServicosProps) {
   return (
     <div className={`${props.className} p-0 m-0 w-full`}>
-      <h2 className="font-extrabold text-3xl text-mainColor m-20">
+      <h2 className="text-center whitespace-nowrap font-extrabold text-3xl text-mainColor m-20">
         NOSSOS SERVIÇOS
       </h2>
       <div className="flex flex-col md:flex-row flex-wrap justify-center p-0 m-0">
