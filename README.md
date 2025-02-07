@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Clinica Neopets next
 
-## Getting Started
+LandingPage recriada em nextjs para a Clinica Neopets.
 
-First, run the development server:
+## Acesse o site para ver resultado
+[Clinica NeoPets](https://clinicaneopets.com.br/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Estrutura do Projeto
+
+```plaintext
+.
+├── .gitignore
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.js
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+├── public/
+├── README.md
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── AgendeAtendimento.tsx
+│   │   │   ├── Carousel.tsx
+│   │   │   ├── FloatIcon.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── Header.tsx
+│   │   │   └── NossosServicos.tsx
+│   │   │   └── PorqueEscolher.tsx
+│   │   │   └── QuemSomos.tsx
+│   │   │   └── Seguir.tsx
+│   │   ├── helpers/
+│   │   │   └── imageLoader.ts
+│   │   ├── styles/
+│   │   │   └── Carrousel.css
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   │   └── icon.svg
+├── tailwind.config.ts
+└── tsconfig.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instalação
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para instalar as dependências do projeto, execute:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+npm install
+```
 
-## Learn More
+### Scripts Disponíveis
 
-To learn more about Next.js, take a look at the following resources:
+No diretório do projeto, você pode executar:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`npm install`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Instala as dependências do projeto.
 
-## Deploy on Vercel
+`npm run dev`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Executa o aplicativo no modo de desenvolvimento.\
+Abra [http://localhost:3000](http://localhost:3000) para ver no navegador.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`npm run build`
+
+Compila o aplicativo para produção na pasta `build`.
+
+`npm run start`
+
+Inicia o servidor de produção.
+
+`npm run lint`
+
+Executa o linter para verificar problemas no código.
+
+### Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Swiper](https://swiperjs.com/)
+- [Vercel](https://vercel.com/)
+
+### Estrutura de Componentes
+
+<span style="color: blue;">⚛</span> `AgendeAtendimento.tsx`
+
+Componente para exibir como agendar seu atendimento.
+
+<span style="color: blue;">⚛</span> `Carousel.tsx`
+
+Componente para exibir um carrossel de imagens.
+
+<span style="color: blue;">⚛</span> `FloatIcon.tsx`
+
+Componente para exibir um link flutuante do Whatsapp.
+
+<span style="color: blue;">⚛</span> `Footer.tsx`
+
+Componente para exibir o footer.
+
+<span style="color: blue;">⚛</span> `Header.tsx`
+
+Componente para exibir o Header.
+
+<span style="color: blue;">⚛</span> `NossosServicos.tsx`
+
+Componente para exibir os Nossos Serviços.
+
+<span style="color: blue;">⚛</span> `PorqueEscolher.tsx`
+
+Componente para exibir o porque escolher a NeoPets.
+
+<span style="color: blue;">⚛</span> `QuemSomos.tsx`
+
+Componente para exibir quem somos.
+
+<span style="color: blue;">⚛</span> `Seguir.tsx`
+
+Componente para exibir um botão de seguir abaixo do carrossel.
+
+### Licença
+
+Este projeto está licenciado sob a Licença MIT.
